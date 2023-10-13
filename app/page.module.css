@@ -6,7 +6,8 @@
   padding: 2rem;
   flex-grow: 1;
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #00ffaa 100%);
-  /* background: linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #06c7ee 100%); */
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #e5e5e5 100%);
+  /* background: linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #91ffc6 100%); */
 
 }
 .titleContainer {
