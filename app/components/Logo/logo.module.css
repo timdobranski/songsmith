@@ -1,7 +1,7 @@
 .gradient {
   position: relative;
   width: auto;
-  height: 250px;
+  height: 50%;
   background: linear-gradient(to right, #c1f9c1, #00ffaa);
   /* border: solid red 4px; */
   display: flex;
@@ -12,11 +12,11 @@
 }
 .bars {
   background: transparent;
-  border-left: solid white 6px;
-  border-right: solid white 6px;
+  border-left: solid white 3px;
+  border-right: solid white 3px;
   border-top: solid white 200px;
   border-bottom: solid white 200px;
-  width: 10px;
+  width: 8px;
   border-radius: 30px;
   animation: wave 1.5s linear infinite alternate;
 }

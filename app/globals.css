@@ -1,12 +1,27 @@
+@font-face {
+  font-family: 'JennaSue';
+  src: url('../public/fonts/JennaSue.ttf');
+  /* font-weight: 200; */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WalkwaySemiBold';
+  src: url('../public/fonts/walkway/Walkway SemiBold.ttf');
+  /* font-weight: 200; */
+  font-style: normal;
+}
 #app {
   padding:0;
   margin: 0;
   box-sizing: border-box;
-  border: solid green 2px;
   position: absolute;
   height: 100%;
   width: 100vw;
   display: flex;
   flex-direction: column;
-
+  font-family: JennaSue;
+}
+#app h1 {
+  padding: 1rem;
+  font-weight: 200;
 }
