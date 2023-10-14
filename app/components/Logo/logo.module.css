@@ -1,7 +1,7 @@
 .gradient {
   position: relative;
   width: auto;
-  height: 50%;
+  height: 80%;
   background: linear-gradient(to right, #c1f9c1, #00ffaa);
   /* border: solid red 4px; */
   display: flex;
@@ -9,6 +9,9 @@
   justify-content: center;
   align-items: center;
   overflow:hidden;
+  margin:0;
+  padding: 0;
+  /* border: solid red 4px; */
 }
 .bars {
   background: transparent;
@@ -16,10 +19,15 @@
   border-right: solid white 3px;
   border-top: solid white 200px;
   border-bottom: solid white 200px;
+  border-color: rgba(0, 0, 0, 1);
   width: 8px;
   border-radius: 30px;
   animation: wave 1.5s linear infinite alternate;
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 1), 1px 0 0 rgba(0, 0, 0, 1);
+  margin: 0;
+  padding:0;
 }
+
 .bar0 {
   height: 5%;
 }
@@ -71,8 +79,6 @@
 .bar16 {
   height: 5%;
 }
-
-
 /* Individual delays for each bar to create the wave effect */
 .bar0  { animation-delay: 0.0s; }
 .bar1  { animation-delay: 0.1s; }
