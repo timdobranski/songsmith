@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.titleContainer}>
         <Logo className={styles.logo}/>
         <h1 className={`${styles.reflectedText} ${styles.title}`} data-text='SongSmith'>
-          SongSmith
+          Songsmith
         </h1>
         <Logo className={styles.logo}/>
       </div>
