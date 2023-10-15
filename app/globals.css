@@ -7,7 +7,6 @@
 @font-face {
   font-family: 'WalkwaySemiBold';
   src: url('../public/fonts/walkway/Walkway SemiBold.ttf');
-  /* font-weight: 200; */
   font-style: normal;
 }
 #app {
@@ -15,16 +14,41 @@
   margin: 0;
   box-sizing: border-box;
   position: absolute;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   font-family: JennaSue;
   background-image: url('../public/images/songsmith.jpeg');
   background-size: cover;
+  background-position-y: 8rem;
+  background-repeat: no-repeat;
   overflow: hidden;
+
 }
 #app h1 {
   padding: 1rem;
   font-weight: 200;
+}
+@media(max-width: 768px) {
+  #app {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: JennaSue;
+    background-image: url('../public/images/songsmith.jpeg');
+    background-size: cover;
+    background-position-y: 6rem;
+    background-position-x: -28rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
 }
