@@ -14,8 +14,8 @@ export default function Home() {
       </div>
       <div className={styles.descriptionContainer}>
         <h2 >UNLOCK YOUR SONGWRITING POTENTIAL</h2>
-        <p>A songwriting app built to teach music theory</p>
-        <p>Coming Winter 2023</p>
+        <p>A String School companion app built to teach music theory through songwriting and teach songwriting through music theory</p>
+        <p>Coming 2024</p>
       </div>
     </main>
 
